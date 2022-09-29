@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <script src="/js/introduction.js"></script>
+</head>
+<body>
+    <h1>Example</h1>
+    <h2>What can JavaScript Do ?</h2>
+    <p id="demo">JavaScript can change HTML content</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript"'>Click Me</button>
+
+    <h1>JavaScript can change HTML attribute Values</h1>
+
+    <button type="button" onclick="document.getElementById('myImage').src='./images/pic_bulbon.gif'">Turn on the linght</button>
+    <img id="myImage" src="/images/pic_bulboff.gif" alt="" style="width: 100px;">
+    <button type="button" onclick="document.getElementById('myImage').src='./images/pic_bulboff.gif'">Turn on the linght</button>
+
+    <h1 id="st">JavaScript Can Change HTML Style CSS</h1> 
+
+    <button type="button" onclick="document.getElementById('st').style.fontSize='50px'">Click Change Style CSS</button>
+
+    <h1 id="hd1">JavaScript can hide HTMl Elements</h1>
+    <button type="button" onclick="document.getElementById('hd1').style.display='none'">Hide Elements</button>
+
+    <h1 id="sh2" style="display: none;">JavaScript can show HTML Elements</h1>
+    <button type="button" onclick="document.getElementById('sh2').style.display ='block'">Show Elements</button>
+
+</body>
+</html>

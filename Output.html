@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Output</title>
+</head>
+<body>
+    <h1>Using innerHTML</h1>
+     <p id="a1"></p>
+
+     <h1>Using document.write()</h1>
+     <p id="a2"></p>
+
+     <h1>Using window.alert()</h1>
+
+     <h1>Using console.log()</h1>
+     <h1>JavaScript Print</h1>
+     <button onclick="window.print()">Print this page</button>
+    <script>
+       document.getElementById('a1').innerHTML = 5 + 7;
+       
+       document.write(51 + 44);
+
+       window.alert('Welcom to my page');
+
+       console.log(7+8);
+    </script>
+</body>
+</html>
